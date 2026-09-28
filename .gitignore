@@ -1,0 +1,19 @@
+# IDE
+.idea/
+*.iml
+
+# build output
+target/
+
+# secrets / local config
+**/Application.yml
+**/application.yml
+**/application.properties
+**/application-*.yml
+.env
+
+# temporary debug controller
+**/TestController.java
+
+# keep the safe template
+!**/application-example.yml
